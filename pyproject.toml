@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "query-radiant-vds"
 version = "0.1.0"
 description = "CLI for querying Radiant Logic IDM v8.1 via ADAP endpoint with async HTTP patterns"
-authors = [{name = "ownjoo-org"}]
+authors = [{name = "ownjoo"}]
 requires-python = ">=3.10"
 dependencies = [
     "funcy",
