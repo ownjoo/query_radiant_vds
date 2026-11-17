@@ -1,6 +1,6 @@
 # Claude Configuration for query_radiant_vds
 
-This project follows [ownjoo-org](https://github.com/ownjoo-org) standards and guidelines.
+This project follows [ownjoo](https://github.com/ownjoo) standards and guidelines.
 
 ## Key Standards
 
@@ -48,8 +48,8 @@ See `query_radiant_vds/client.py` and `query_radiant_vds/main.py` for examples.
 Before making changes:
 
 1. Read this file (CLAUDE.md)
-2. Review the full [ownjoo-org CLAUDE.md](https://github.com/ownjoo-org/claude/blob/main/CLAUDE.md)
+2. Review the full [ownjoo CLAUDE.md](https://github.com/ownjoo/claude/blob/main/CLAUDE.md)
 3. Follow the patterns in this project
 4. Update this file if new standards should be documented
 
-Questions? See [ownjoo-org/claude](https://github.com/ownjoo-org/claude) for detailed guidelines.
+Questions? See [ownjoo/claude](https://github.com/ownjoo/claude) for detailed guidelines.

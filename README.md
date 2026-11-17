@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/ownjoo/query_radiant_vds)](LICENSE)
 [![Top language](https://img.shields.io/github/languages/top/ownjoo/query_radiant_vds)](https://github.com/ownjoo/query_radiant_vds) [![Stars](https://img.shields.io/github/stars/ownjoo/query_radiant_vds)](https://github.com/ownjoo/query_radiant_vds/stargazers) [![Forks](https://img.shields.io/github/forks/ownjoo/query_radiant_vds)](https://github.com/ownjoo/query_radiant_vds/forks) [![Issues](https://img.shields.io/github/issues/ownjoo/query_radiant_vds)](https://github.com/ownjoo/query_radiant_vds/issues) [![Pull requests](https://img.shields.io/github/issues-pr/ownjoo/query_radiant_vds)](https://github.com/ownjoo/query_radiant_vds/pulls)
 
-A Python CLI application for querying Radiant Logic IDM v8.1 via the ADAP (REST) endpoint. Demonstrates async HTTP patterns with `httpx`, `asyncio`, and `ownjoo-org/utils`.
+A Python CLI application for querying Radiant Logic IDM v8.1 via the ADAP (REST) endpoint. Demonstrates async HTTP patterns with `httpx`, `asyncio`, and `ownjoo/utils`.
 
 ## Features
 
@@ -11,7 +11,7 @@ A Python CLI application for querying Radiant Logic IDM v8.1 via the ADAP (REST)
 - **Automatic Retries** — Built-in retry logic with exponential backoff via `retry-async`
 - **Queue-Based Coordination** — Coordinates ADAP search and JSON output using `asyncio.Queue`
 - **Basic Authentication** — HTTP Basic Auth with base64-encoded credentials
-- **Structured Logging** — Integration with `ownjoo-org/utils` logging utilities
+- **Structured Logging** — Integration with `ownjoo/utils` logging utilities
 - **Type-Safe** — Full type hints with mypy validation
 - **Comprehensive Testing** — Unit and integration tests with unittest
 
@@ -27,7 +27,7 @@ A Python CLI application for querying Radiant Logic IDM v8.1 via the ADAP (REST)
 
 ```bash
 # Clone the repository
-git clone https://github.com/ownjoo-org/query_radiant_vds.git
+git clone https://github.com/ownjoo/query_radiant_vds.git
 cd query_radiant_vds
 
 # Install development dependencies
@@ -201,14 +201,14 @@ See [CLAUDE.md](CLAUDE.md) for organization standards and best practices.
 
 ## Standards
 
-This project adheres to [ownjoo-org](https://github.com/ownjoo-org) standards:
+This project adheres to [ownjoo](https://github.com/ownjoo) standards:
 
 - **Simplicity First** — Write the simplest code that solves the problem
 - **Integration Testing** — Prefer real dependencies over mocks
 - **Security by Default** — No OWASP Top 10 vulnerabilities
 - **Explicit Commits** — Use conventional commits with clear history
 
-See [template_cli](https://github.com/ownjoo-org/template_cli) for reusable patterns and testing strategies documented in PATTERNS.md and TESTING.md.
+See [template_cli](https://github.com/ownjoo/template_cli) for reusable patterns and testing strategies documented in PATTERNS.md and TESTING.md.
 
 ## License
 
